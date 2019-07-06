@@ -1,11 +1,12 @@
 import React from 'react';
+import './NewTodoForm.css';
 
 const newTodoForm = (props) => {
     return(
         <form onSubmit={props.formSubmitted}>
-          <label htmlFor="newTodo">new Todo</label>
-          <input onChange={props.newTodoChanged} id="newTodo" name="newTodo" value={props.newTodo} />
-          <button type="submit">Add Todo</button>
+          <label className="label" htmlFor="newTodo">New Todo:</label>
+          <input className="newTodo" onChange={props.newTodoChanged} id="newTodo" name="newTodo" value={props.newTodo} />
+          <button className="add" type="submit">Add Todo</button>
         </form>
     )
 }

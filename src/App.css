@@ -1,3 +1,15 @@
+body {
+  padding-top: 50px;
+}
 h3 {
   text-align: center;
+}
+
+.allDone {
+  margin-top: 20px;
+  margin-left: 400px;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: white;
 }

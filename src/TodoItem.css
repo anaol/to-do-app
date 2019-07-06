@@ -1,11 +1,22 @@
+li {
+    list-style-type: none;
+}
 input[type="checkbox"] {
     display: inline;
-  }
+}
+
+.checkbox {
+    margin-right: 25px;
+}
   
 .done {
     text-decoration: line-through;
 }
 
-button {
+.remove {
     font-size: 14px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
 }
